@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lattery Coffee - Premium Artisanal Coffee & Treats</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DUMMY123"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-DUMMY123');
+    </script>
+</head>
+<body>
+
+    <div class="announcement-bar">
+        <span>✓ Clean Ingredients</span>
+        <span>✓ Barista Crafted</span>
+        <span>✓ Community Focused</span>
+        <span>✓ Fresh Daily</span>
+    </div>
+
+    <header class="navbar">
+        <div class="logo">LATTERY COFFEE</div>
+        <nav class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#catalog">Menu</a>
+            <a href="#gallery-section">Gallery</a> 
+            <a href="#checkout-section">Check Out</a>
+        </nav>
+        <div class="nav-icons">
+            <button id="cart-toggle-btn" class="icon-btn">🛒 <span id="cart-count">0</span></button>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Good for your soul.<br>Better for your day.</h1>
+            <p>Premium artisanal coffee, freshly baked pastries, and wholesome foods crafted with care.</p>
+            <div class="hero-buttons">
+                <a href="#catalog" class="btn btn-primary">Order Online</a>
+                <a href="#catalog" class="btn btn-secondary">Find Your Location →</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-placeholder" style="height: 80%; width: 100%; overflow: hidden;">
+            <img src="images/lattery-coffee.png" alt="Lattery Coffee">
+            </div>
+        </div>
+    </section>
+
+    <section id="catalog" class="catalog-container">
+        <h2>Our Best Seller Menu</h2>
+        
+        <div class="controls">
+            <input type="text" id="search-input" placeholder="Search menu...">
+            
+            <select id="category-filter" onchange="showCategoryCollection(this.value)">
+                <option value="all">-- Explore Category Pages --</option>
+                <option value="coffee">Coffee Collection</option>
+                <option value="soft-brews">Soft Brews Collection</option>
+                <option value="mocktails">Mocktails & Refreshers</option>
+                <option value="pastry">Pastry & Sweet Treats</option>
+                <option value="western">Savory Bites & Main Course</option>
+            </select>
+        </div>
+
+        <div id="product-grid" class="product-grid"></div>
+    </section>
+
+    <section id="category-collection" class="catalog-container" style="display: none; background-color: #F5F2EB; border-top: 1px dashed #3A4D39; padding-top: 40px; padding-bottom: 60px;">
+        <h2 id="collection-title" style="text-transform: capitalize;">Category Collection</h2>
+        <p style="text-align: center; margin-top: -15px; margin-bottom: 30px; color: #666;">Explore our 7 special crafted items in this section.</p>
+        
+        <div id="category-product-grid" class="product-grid"></div>
+    </section>
+
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button id="close-cart-btn">&times;</button>
+        </div>
+        <div id="cart-items" class="cart-items">
+            </div>
+        <div class="cart-footer">
+            <div class="total-container">
+                <span>Total:</span>
+                <span id="cart-total-price">Rp0</span>
+            </div>
+            <a href="#checkout-section" id="checkout-btn" class="btn btn-primary" style="display: block; text-align: center;">Proceed to Checkout</a>
+        </div>
+    </div>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <span id="close-modal-btn" class="close-modal">&times;</span>
+            <div class="modal-body">
+                <div class="modal-img-placeholder">[ Product Image ]</div>
+                <div class="modal-info">
+                    <h3 id="modal-product-title">Product Name</h3>
+                    <p id="modal-product-category" class="category-tag">Category</p>
+                    <p id="modal-product-desc">Product description goes here.</p>
+                    <p id="modal-product-price" class="modal-price">Rp0</p>
+                    <button id="modal-add-to-cart-btn" class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="gallery-section" class="catalog-container" style="background-color: #F5F2EB; padding: 60px 5%; border-top: 1px solid #EAE5DB;">
+        <h2 style="text-align: center; margin-bottom: 10px;">Our Sanctuary Gallery</h2>
+        <p style="text-align: center; margin-bottom: 40px; color: #666; font-style: italic;">A glimpse of our gallery.</p>
+        
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/gallery-1.jpg" alt="Lattery Ambiance 1">
+                <div class="gallery-overlay"><span>Good Vibes</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-2.jpg" alt="Lattery Ambiance 2">
+                <div class="gallery-overlay"><span>Coffee First</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-3.jpg" alt="Lattery Ambiance 3">
+                <div class="gallery-overlay"><span>Fresh Pastry</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-4.jpg" alt="Lattery Ambiance 4">
+                <div class="gallery-overlay"><span>Pure Brew</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-5.jpg" alt="Lattery Ambiance 5">
+                <div class="gallery-overlay"><span>Freshly</span></div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/gallery-6.jpg" alt="Lattery Ambiance 6">
+                <div class="gallery-overlay"><span>Savor The Moment</span></div>
+            </div>
+        </div>
+    </section>
+    <section id="checkout-section" class="checkout-section">
+        <h2>Secure Checkout</h2>
+        <div class="checkout-container">
+            <form id="checkout-form" class="checkout-form">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="address">Delivery Address / Table Number *</label>
+                    <input type="text" id="address" required placeholder="Table 5 / Jl. Kebon Sirih No. 12">
+                </div>
+                <div class="form-group">
+                    <label for="payment">Payment Method *</label>
+                    <select id="payment" required>
+                        <option value="">Select Method</option>
+                        <option value="qris">QRIS (Simulated)</option>
+                        <option value="cash">Cash at Counter</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Place Order</button>
+            </form>
+            <div class="order-summary-box">
+                <h3>Order Summary</h3>
+                <div id="checkout-summary-items"></div>
+                <hr>
+                <div class="summary-total">
+                    <span>Grand Total:</span>
+                    <strong id="checkout-total-price">Rp0</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <h3>LATTERY</h3>
+                <p>Crafting moments, one pour at a time.</p>
+            </div>
+            <div>
+                <h4>Hours</h4>
+                <p>Mon - Sun: 07:00 AM - 10:00 PM</p>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <p>hello@latterycafe.com</p>
+                <p>+62 812-3456-7890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lattery Cafe. Built for Academic Project Purposes.</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
