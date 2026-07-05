@@ -6,7 +6,7 @@ const menuProducts = [
         category: "coffee",
         price: 28000,
         desc: "Biji kopi pilihan khas Lattery dengan cita rasa seimbang, aroma cokelat, dan ice cream.",
-        imgText: `<img src="images/best-1.jpg" alt="Affogato">`
+        imgText: `<img src="/best-1.jpg" alt="Affogato">`
     },
     {
         id: 2,
@@ -14,7 +14,7 @@ const menuProducts = [
         category: "soft-brews",
         price: 25000,
         desc: "Kombinasi sempurna antara matcha premium Jepang yang autentik dan susu segar yang creamy.",
-        imgText: `<img src="images/best-2.jpg" alt="Matcha Latte">`
+        imgText: `<img src="best-2.jpg" alt="Matcha Latte">`
     },
     {
         id: 3,
@@ -22,7 +22,7 @@ const menuProducts = [
         category: "soft-brews",
         price: 30000,
         desc: "Kombinasi sempurna rasa manis butterscotch dan sentuhan garam laut yang unik, memberikan pengalaman rasa yang berbeda.",
-        imgText: `<img src="images/best-3.jpg" alt="Butterscotch Seasalt">`
+        imgText: `<img src="best-3.jpg" alt="Butterscotch Seasalt">`
     },
     {
         id: 4,
@@ -30,7 +30,7 @@ const menuProducts = [
         category: "soft-brews",
         price: 34000,
         desc: "Minuman dingin yang menyegarkan dengan campuran kopi, susu, es, dan saus karamel manis yang lezat.",
-        imgText: `<img src="images/best-4.jpg" alt="Caramel Frappuccino">`
+        imgText: `<img src="best-4.jpg" alt="Caramel Frappuccino">`
     },
     {
         id: 5,
@@ -38,7 +38,7 @@ const menuProducts = [
         category: "pastry",
         price: 25000,
         desc: "Kombinasi sempurna antara brownies cokelat yang lembut dan es krim vanilla yang creamy, memberikan sensasi manis dan lezat dalam setiap suapan.",
-        imgText: `<img src="images/best-5.jpg" alt="Fudgy Brownie Ice Cream">`
+        imgText: `<img src="best-5.jpg" alt="Fudgy Brownie Ice Cream">`
     },
     {
         id: 6,
@@ -46,7 +46,7 @@ const menuProducts = [
         category: "pastry",
         price: 30000,
         desc: "Kue keju panggang yang memiliki permukaan karamelisasi yang khas, memberikan rasa manis dan gurih yang seimbang.",
-        imgText: `<img src="images/best-6.jpg" alt="Burnt Cheesecake">`
+        imgText: `<img src="best-6.jpg" alt="Burnt Cheesecake">`
     },
     {
         id: 7,
@@ -54,7 +54,7 @@ const menuProducts = [
         category: "mocktails",
         price: 28000,
         desc: "Minuman segar dengan rasa manis dan asam dari mangga, memberikan sensasi tropis yang menyegarkan.",
-        imgText: `<img src="images/best-7.jpg" alt="Mango Breeze">`
+        imgText: `<img src="best-7.jpg" alt="Mango Breeze">`
     },
     {
         id: 8,
@@ -62,45 +62,45 @@ const menuProducts = [
         category: "western",
         price: 30000,
         desc: "Stik keju gurih renyah dengan isian keju mozarella melimpah yang meleleh sempurna saat disajikan panas.",
-        imgText: `<img src="images/best-8.jpg" alt="Mozarella Cheese Stick">`
+        imgText: `<img src="best-8.jpg" alt="Mozarella Cheese Stick">`
     },
 
     
-    { id: 102, name: "Expresso", category: "coffee", price: 20000, desc: "Kopi hitam murni yang diseduh dengan metode espresso.", imgText: `<img src="images/expresso.jpg" alt="Expresso">` },
-    { id: 103, name: "Americano", category: "coffee", price: 20000, desc: "Kopi hitam murni yang diseduh dengan metode americano.", imgText: `<img src="images/americano.jpg" alt="Americano">` },
-    { id: 104, name: "Coffee Latte", category: "coffee", price: 25000, desc: "Kopi susu lembut dengan tekstur velvet.", imgText: `<img src="images/coffe-latte.jpg" alt="Coffee Latte">` },
-    { id: 105, name: "Cappuccino", category: "coffee", price: 28000, desc: "Kopi dengan lapisan susu berbusa yang lembut.", imgText: `<img src="images/cappuccino.jpg" alt="Cappuccino">` },
-    { id: 106, name: "Caramel Macchiato", category: "coffee", price: 33000, desc: "Kopi susu lembut dengan sirup caramel.", imgText: `<img src="images/caramel-macchiato.jpg" alt="Caramel Macchiato">` },
-    { id: 107, name: "Kopi Susu Gula Aren", category: "coffee", price: 24000, desc: "Kopi susu lembut dengan perpaduan gula aren.", imgText: `<img src="images/kopi-susu-gula-aren.jpg" alt="Kopi Susu Gula Aren">` },
+    { id: 102, name: "Expresso", category: "coffee", price: 20000, desc: "Kopi hitam murni yang diseduh dengan metode espresso.", imgText: `<img src="expresso.jpg" alt="Expresso">` },
+    { id: 103, name: "Americano", category: "coffee", price: 20000, desc: "Kopi hitam murni yang diseduh dengan metode americano.", imgText: `<img src="americano.jpg" alt="Americano">` },
+    { id: 104, name: "Coffee Latte", category: "coffee", price: 25000, desc: "Kopi susu lembut dengan tekstur velvet.", imgText: `<img src="coffe-latte.jpg" alt="Coffee Latte">` },
+    { id: 105, name: "Cappuccino", category: "coffee", price: 28000, desc: "Kopi dengan lapisan susu berbusa yang lembut.", imgText: `<img src="cappuccino.jpg" alt="Cappuccino">` },
+    { id: 106, name: "Caramel Macchiato", category: "coffee", price: 33000, desc: "Kopi susu lembut dengan sirup caramel.", imgText: `<img src="caramel-macchiato.jpg" alt="Caramel Macchiato">` },
+    { id: 107, name: "Kopi Susu Gula Aren", category: "coffee", price: 24000, desc: "Kopi susu lembut dengan perpaduan gula aren.", imgText: `<img src="kopi-susu-gula-aren.jpg" alt="Kopi Susu Gula Aren">` },
 
    
-    { id: 204, name: "Pink Matcha", category: "soft-brews", price: 28000, desc: "Minuman matcha dengan rasa cerry yang lezat.", imgText: `<img src="images/pink-matcha.jpg" alt="Pink Matcha">` },
-    { id: 205, name: "Red Velvet", category: "soft-brews", price: 24000, desc: "Minuman berwarna merah dengan rasa kue red velvet yang lezat.", imgText: `<img src="images/red-velvet-latte.jpg" alt="Red Velvet">` },
-    { id: 206, name: "Taro Latte", category: "soft-brews", price: 25000, desc: "Rasa talas manis lembut non-coffee yang ramah di lambung.", imgText: `<img src="images/taro-latte.jpg" alt="Taro Latte">` },
-    { id: 207, name: "Choco Milkshake", category: "soft-brews", price: 23000, desc: "Minuman susu cokelat yang lezat.", imgText: `<img src="images/choco-milkshake.jpg" alt="Choco Milkshake">` },
+    { id: 204, name: "Pink Matcha", category: "soft-brews", price: 28000, desc: "Minuman matcha dengan rasa cerry yang lezat.", imgText: `<img src="pink-matcha.jpg" alt="Pink Matcha">` },
+    { id: 205, name: "Red Velvet", category: "soft-brews", price: 24000, desc: "Minuman berwarna merah dengan rasa kue red velvet yang lezat.", imgText: `<img src="red-velvet-latte.jpg" alt="Red Velvet">` },
+    { id: 206, name: "Taro Latte", category: "soft-brews", price: 25000, desc: "Rasa talas manis lembut non-coffee yang ramah di lambung.", imgText: `<img src="taro-latte.jpg" alt="Taro Latte">` },
+    { id: 207, name: "Choco Milkshake", category: "soft-brews", price: 23000, desc: "Minuman susu cokelat yang lezat.", imgText: `<img src="choco-milkshake.jpg" alt="Choco Milkshake">` },
 
     
-    { id: 302, name: "Lemon Tea", category: "mocktails", price: 20000, desc: "Teh lemon segar dengan rasa asam manis yang menyegarkan.", imgText: `<img src="images/lemon-tea.jpg" alt="Lemon Tea">` },
-    { id: 303, name: "Lychee Tea", category: "mocktails", price: 22000, desc: "Teh leci segar dengan rasa manis yang lezat.", imgText: `<img src="images/lychee-tea.jpg" alt="Lychee Tea">` },
-    { id: 304, name: "Clasic Virgin Mojito", category: "mocktails", price: 25000, desc: "Soda jernih dingin dengan potongan lemon asli dan daun mint.", imgText: `<img src="images/clasic-virgin-mojito.jpg" alt="Classic Virgin Mojito">` },
-    { id: 305, name: "Strawberry Basil Lemonade", category: "mocktails", price: 27000, desc: "Minuman lemonade segar dengan rasa stroberi dan daun basil.", imgText: `<img src="images/strawberry-basil-lemonade.jpg" alt="Strawberry Basil Lemonade">` },
-    { id: 306, name: "Blue Citrus Ocean", category: "mocktails", price: 26000, desc: "Minuman citrus segar dengan sirup blueberry, lemon, dan mint.", imgText: `<img src="images/blue-citrus-ocean.jpg" alt="Blue Citrus Ocean">` },
-    { id: 307, name: "Berry Pop Moctail", category: "mocktails", price: 29000, desc: "Minuman berbagai buah berwarna cerah dengan rasa manis dan asam.", imgText: `<img src="images/berry-pop-moctail.jpg" alt="Berry Pop Mocktail">` },
+    { id: 302, name: "Lemon Tea", category: "mocktails", price: 20000, desc: "Teh lemon segar dengan rasa asam manis yang menyegarkan.", imgText: `<img src="lemon-tea.jpg" alt="Lemon Tea">` },
+    { id: 303, name: "Lychee Tea", category: "mocktails", price: 22000, desc: "Teh leci segar dengan rasa manis yang lezat.", imgText: `<img src="lychee-tea.jpg" alt="Lychee Tea">` },
+    { id: 304, name: "Clasic Virgin Mojito", category: "mocktails", price: 25000, desc: "Soda jernih dingin dengan potongan lemon asli dan daun mint.", imgText: `<img src="clasic-virgin-mojito.jpg" alt="Classic Virgin Mojito">` },
+    { id: 305, name: "Strawberry Basil Lemonade", category: "mocktails", price: 27000, desc: "Minuman lemonade segar dengan rasa stroberi dan daun basil.", imgText: `<img src="strawberry-basil-lemonade.jpg" alt="Strawberry Basil Lemonade">` },
+    { id: 306, name: "Blue Citrus Ocean", category: "mocktails", price: 26000, desc: "Minuman citrus segar dengan sirup blueberry, lemon, dan mint.", imgText: `<img src="blue-citrus-ocean.jpg" alt="Blue Citrus Ocean">` },
+    { id: 307, name: "Berry Pop Moctail", category: "mocktails", price: 29000, desc: "Minuman berbagai buah berwarna cerah dengan rasa manis dan asam.", imgText: `<img src="berry-pop-moctail.jpg" alt="Berry Pop Mocktail">` },
 
     
-    { id: 403, name: "Croissant", category: "pastry", price: 23000, desc: "Pastry mentega renyah dengan krim coklat manis di dalamnya.", imgText: `<img src="images/croisant.jpg" alt="Croissant">` },
-    { id: 404, name: "Churros Chocolate Dip", category: "pastry", price: 25000, desc: "Churros manis dengan cocolan cokelat.", imgText: `<img src="images/churros-chocolate-dip.jpg" alt="Churros Chocolate Dip">` },
-    { id: 405, name: "Cinnamon Roll", category: "pastry", price: 25000, desc: "Roti gulung kayu manis wangi dengan lelehan gula putih royal.", imgText: `<img src="images/cinnamon-roll.jpg" alt="Cinnamon Roll">` },
-    { id: 406, name: "Waffle With Maple Syrup", category: "pastry", price: 24000, desc: "Waffle lembut dengan sirup maple yang manis.", imgText: `<img src="images/waffle-with-maple-syrup.jpg" alt="Waffle With Maple Syrup">` },
-    { id: 407, name: "Chocolate Chips Cookie", category: "pastry", price: 20000, desc: "cookies cokelat dengan chip cokelat di dalamnya.", imgText: `<img src="images/chocolate-chips-cookie.jpg" alt="Chocolate Chips Cookie">` },
+    { id: 403, name: "Croissant", category: "pastry", price: 23000, desc: "Pastry mentega renyah dengan krim coklat manis di dalamnya.", imgText: `<img src="croisant.jpg" alt="Croissant">` },
+    { id: 404, name: "Churros Chocolate Dip", category: "pastry", price: 25000, desc: "Churros manis dengan cocolan cokelat.", imgText: `<img src="churros-chocolate-dip.jpg" alt="Churros Chocolate Dip">` },
+    { id: 405, name: "Cinnamon Roll", category: "pastry", price: 25000, desc: "Roti gulung kayu manis wangi dengan lelehan gula putih royal.", imgText: `<img src="cinnamon-roll.jpg" alt="Cinnamon Roll">` },
+    { id: 406, name: "Waffle With Maple Syrup", category: "pastry", price: 24000, desc: "Waffle lembut dengan sirup maple yang manis.", imgText: `<img src="waffle-with-maple-syrup.jpg" alt="Waffle With Maple Syrup">` },
+    { id: 407, name: "Chocolate Chips Cookie", category: "pastry", price: 20000, desc: "cookies cokelat dengan chip cokelat di dalamnya.", imgText: `<img src="chocolate-chips-cookie.jpg" alt="Chocolate Chips Cookie">` },
 
     
-    { id: 502, name: "French Fries", category: "western", price: 25000, desc: "Kentang goreng gurih garing.", imgText: `<img src="images/french-fries.jpg" alt="French Fries">` },
-    { id: 503, name: "Mix Platter", category: "western", price: 40000, desc: "Kombinasi dari berbagai makanan western favorit.", imgText: `<img src="images/mix-platter.jpg" alt="Mix Platter">` },
-    { id: 504, name: "Onion Rings", category: "western", price: 23000, desc: "bawang bombay goreng renyah.", imgText: `<img src="images/onion-rings.jpg" alt="Onion Rings">` },
-    { id: 505, name: "Sandwich", category: "western", price: 22000, desc: "Sandwich lezat dengan berbagai isian.", imgText: `<img src="images/sandwich.jpg" alt="Sandwich">` },
-    { id: 506, name: "Spicy Chicken Wings", category: "western", price: 40000, desc: "Sayap ayam pedas yang lezat.", imgText: `<img src="images/spicy-chicken-wings.jpg" alt="Spicy Chicken Wings">` },
-    { id: 507, name: "Beef Burger", category: "western", price: 38000, desc: "Daging patty tebal juicy, keju cheddar, bawang bombay karamel.", imgText: `<img src="images/beef-burger.jpg" alt=" Beef Burger">` }
+    { id: 502, name: "French Fries", category: "western", price: 25000, desc: "Kentang goreng gurih garing.", imgText: `<img src="french-fries.jpg" alt="French Fries">` },
+    { id: 503, name: "Mix Platter", category: "western", price: 40000, desc: "Kombinasi dari berbagai makanan western favorit.", imgText: `<img src="mix-platter.jpg" alt="Mix Platter">` },
+    { id: 504, name: "Onion Rings", category: "western", price: 23000, desc: "bawang bombay goreng renyah.", imgText: `<img src="onion-rings.jpg" alt="Onion Rings">` },
+    { id: 505, name: "Sandwich", category: "western", price: 22000, desc: "Sandwich lezat dengan berbagai isian.", imgText: `<img src="sandwich.jpg" alt="Sandwich">` },
+    { id: 506, name: "Spicy Chicken Wings", category: "western", price: 40000, desc: "Sayap ayam pedas yang lezat.", imgText: `<img src="spicy-chicken-wings.jpg" alt="Spicy Chicken Wings">` },
+    { id: 507, name: "Beef Burger", category: "western", price: 38000, desc: "Daging patty tebal juicy, keju cheddar, bawang bombay karamel.", imgText: `<img src="beef-burger.jpg" alt=" Beef Burger">` }
 ];
 
 
