@@ -2,12 +2,11 @@
 
 Dokumentasi bisnis dan teknis untuk website Lattery Coffee, sebuah platform pemesanan online untuk kafe artisanal yang menyajikan kopi, minuman, dan makanan ringan berkualitas.
 
----
+
 
 ## 1. Nama Bisnis, Deskripsi, dan Value Proposition
 
-* **Nama Bisnis:** Lattery Coffee
-* **Deskripsi:** Lattery Coffee adalah kafe artisanal yang menghadirkan kopi premium, minuman segar, serta pastry dan makanan ringan yang dibuat segar setiap hari. Melalui website ini, pelanggan dapat menjelajahi menu, memesan secara online, dan menikmati pengalaman checkout yang cepat baik untuk dine-in maupun pesan-antar. Lattery Coffee hadir sebagai ruang nyaman untuk menikmati momen sehari-hari dengan sajian yang jujur dan berkualitas.
+Lattery Coffee adalah kafe artisanal yang menghadirkan kopi premium, minuman segar, serta pastry dan makanan ringan yang dibuat segar setiap hari. Melalui website ini, pelanggan dapat menjelajahi menu, memesan secara online, dan menikmati pengalaman checkout yang cepat baik untuk dine-in maupun pesan-antar. Lattery Coffee hadir sebagai ruang nyaman untuk menikmati momen sehari-hari dengan sajian yang jujur dan berkualitas.
 
 ### Value Proposition
 * **Bahan Berkualitas & Segar Setiap Hari** — Semua kopi, pastry, dan makanan disiapkan menggunakan bahan pilihan dan diproses secara fresh daily, tanpa bahan pengawet berlebihan.
@@ -43,7 +42,7 @@ Persaingan di segmen ini cukup ketat, terutama dengan hadirnya kafe waralaba bes
 | **Fore Coffee** | Aplikasi pemesanan matang, program loyalti kuat | Harga sedikit lebih tinggi, antrean di outlet populer |
 | **Kedai Kopi Lokal Independen** | Suasana unik, harga bersaing, dekat komunitas lokal | Sistem pemesanan online minim, jam operasional terbatas |
 
----
+
 
 ## 4. Strategi Manajemen Produk & Katalog
 
@@ -64,7 +63,6 @@ Persaingan di segmen ini cukup ketat, terutama dengan hadirnya kafe waralaba bes
 * Gambar close-up untuk menonjolkan tekstur (foam latte, lapisan pastry, dsb.).
 * Foto suasana kafe (gallery section) untuk membangun kepercayaan dan menampilkan nuansa tempat sebelum pelanggan berkunjung.
 
----
 
 ## 5. Model Bisnis & Revenue Stream
 
@@ -74,11 +72,9 @@ Model bisnis Lattery Coffee berbasis penjualan langsung (direct sales) melalui d
 * **Potensi Upselling melalui Bundling Menu** — Menawarkan paket kombinasi (misalnya kopi + pastry) untuk meningkatkan nilai transaksi rata-rata (average order value).
 * *(Opsional Pengembangan Lanjutan)* Merchandise kafe atau produk kopi kemasan (biji kopi/bubuk) sebagai revenue stream tambahan di masa depan.
 
----
 
 ## 6. Strategi Harga, Promosi, dan Diskon
 
-### Contoh Strategi Harga
 Menggunakan pendekatan value-based pricing, yaitu menetapkan harga berdasarkan kualitas bahan dan pengalaman yang ditawarkan, bukan sekadar mengikuti harga pasar. Harga dibedakan antar kategori (misalnya Coffee Collection sedikit lebih tinggi dibanding Soft Brews) agar mencerminkan biaya bahan baku secara proporsional.
 
 ### 3 Ide Promo/Diskon
@@ -86,7 +82,6 @@ Menggunakan pendekatan value-based pricing, yaitu menetapkan harga berdasarkan k
 2. **Bundling Combo Hemat** — Paket kombinasi kopi + pastry dengan harga lebih murah dibanding membeli terpisah, guna mendorong peningkatan nilai transaksi.
 3. **Promo Member/Pelanggan Setia** — Diskon khusus atau minuman gratis setelah jumlah pembelian tertentu, guna membangun loyalitas pelanggan jangka panjang.
 
----
 
 ## 7. Proses Checkout & Simulasi Payment Gateway
 
@@ -99,9 +94,6 @@ Alur pemesanan pada website Lattery Coffee dirancang agar sederhana dan cepat:
    * **Cash at Counter** — Pembayaran tunai langsung di kasir saat pengambilan pesanan.
 5. **Konfirmasi Pesanan** — Setelah data lengkap, pelanggan menekan tombol "Place Order" untuk menyelesaikan transaksi, dan ringkasan pesanan ditampilkan sebagai bukti pemesanan.
 
-> ⚠️ **Catatan:** Payment gateway pada versi ini bersifat simulasi untuk kebutuhan proyek akademik, belum terintegrasi dengan payment processor sungguhan (seperti Midtrans/Xendit).
-
----
 
 ## 8. Rencana SEO, Keamanan, dan Pemeliharaan
 
@@ -120,7 +112,7 @@ Alur pemesanan pada website Lattery Coffee dirancang agar sederhana dan cepat:
 * Monitoring performa website secara berkala (kecepatan loading, broken link, kompatibilitas browser/device).
 * Backup data dan kode secara berkala untuk mengantisipasi kehilangan data atau kerusakan sistem.
 
----
+
 
 ## 9. Rencana Penggunaan Data Analytics
 
@@ -131,13 +123,4 @@ Website Lattery Coffee telah terintegrasi dengan Google Analytics (Google Tag Ma
 * **Rata-rata Nilai Transaksi (Average Order Value)** — Untuk mengevaluasi efektivitas strategi bundling/promo dalam meningkatkan nilai belanja pelanggan.
 * **Waktu Kunjungan Tersibuk** — Untuk membantu strategi promo jam sibuk (happy hour) serta perencanaan operasional staf.
 
----
 
-## 💻 Tech Stack
-
-* **HTML** — Struktur halaman website
-* **CSS** — Styling dan tampilan responsif
-* **JavaScript** — Logika interaktif (katalog, keranjang, checkout, filter kategori)
-
----
-_README ini disusun sebagai bagian dari dokumentasi project akademik Lattery Coffee._
