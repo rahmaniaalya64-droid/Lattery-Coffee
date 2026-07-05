@@ -32,7 +32,7 @@ Lattery Coffee adalah kafe artisanal yang menghadirkan kopi premium, minuman seg
 
 Industri kafe dan specialty coffee di Indonesia terus bertumbuh seiring meningkatnya budaya "ngopi" sebagai gaya hidup, bukan sekadar kebutuhan. Konsumen kini tidak hanya mencari rasa, tetapi juga pengalaman menyeluruh mulai dari suasana tempat, kemudahan pemesanan, hingga konsistensi kualitas produk. Hal ini membuka peluang bagi kafe kelas menengah seperti Lattery Coffee untuk bersaing dengan menonjolkan sisi kualitas bahan dan kenyamanan digital.
 
-Persaingan di segmen ini cukup ketat, terutama dengan hadirnya kafe waralaba besar maupun kedai kopi lokal yang menawarkan harga bersaing. Untuk itu, Lattery Coffee perlu memposisikan diri sebagai kafe dengan identitas khas — melalui branding yang konsisten, pengalaman pemesanan online yang mulus, serta narasi produk yang personal dan hangat — agar tidak sekadar bersaing di harga, tetapi juga di pengalaman pelanggan.
+Persaingan di segmen ini cukup ketat, terutama dengan hadirnya kafe waralaba besar maupun kedai kopi lokal yang menawarkan harga bersaing. Untuk itu, Lattery Coffee perlu memposisikan diri sebagai kafe dengan identitas khas melalui branding yang konsisten, pengalaman pemesanan online yang mulus, serta narasi produk yang personal dan hangat agar tidak sekadar bersaing di harga, tetapi juga di pengalaman pelanggan.
 
 ### Tabel Analisis Kompetitor
 
@@ -53,7 +53,7 @@ Persaingan di segmen ini cukup ketat, terutama dengan hadirnya kafe waralaba bes
 * Pastry & Sweet Treats (roti, kue, dessert)
 * Savory Bites & Main Course (makanan berat/ringan gurih)
 
-### Cara Membuat Deskripsi Produk yang Menarik
+### Membuat Deskripsi Produk yang Menarik
 * Gunakan bahasa yang sensorik dan menggambarkan rasa/aroma (contoh: "creamy dengan sentuhan karamel hangat") agar pelanggan bisa membayangkan pengalaman rasa sebelum membeli.
 * Sertakan informasi singkat namun jelas: bahan utama, tingkat kemanisan/kepekatan, dan cocok dinikmati kapan (misal: "cocok untuk menemani sore hari").
 * Konsisten dalam gaya penulisan pada seluruh kategori agar terlihat profesional dan mudah dipindai (scannable) oleh pelanggan.
