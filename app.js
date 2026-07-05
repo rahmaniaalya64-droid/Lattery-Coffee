@@ -6,7 +6,7 @@ const menuProducts = [
         category: "coffee",
         price: 28000,
         desc: "Biji kopi pilihan khas Lattery dengan cita rasa seimbang, aroma cokelat, dan ice cream.",
-        imgText: `<img src="best-1.jpg" alt="Affogato">`
+        imgText: `<img src="affogato.jpg" alt="Affogato">`
     },
     {
         id: 2,
