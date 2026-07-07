@@ -24,7 +24,7 @@ Lattery Coffee adalah kafe artisanal yang menghadirkan kopi premium, minuman seg
 | **Minat** | Kopi specialty, kuliner kekinian, nongkrong santai, konten media sosial (Instagramable place), gaya hidup sehat |
 | **Problem yang Diselesaikan** | Sulitnya menemukan kafe dengan kualitas konsisten, kebutuhan tempat kerja/nongkrong yang nyaman, keinginan memesan makanan/minuman dengan cepat tanpa antre, serta kebutuhan opsi menu yang jelas (harga, kategori, deskripsi) sebelum datang ke lokasi |
 
-> **Note:** Segmen ini dipilih karena kelompok usia produktif cenderung memiliki kebiasaan konsumsi kopi harian yang tinggi, familiar dengan transaksi digital, dan aktif mencari referensi tempat nongkrong melalui platform online.
+> Segmen ini dipilih karena kelompok usia produktif cenderung memiliki kebiasaan konsumsi kopi harian yang tinggi, familiar dengan transaksi digital, dan aktif mencari referensi tempat nongkrong melalui platform online.
 
 ---
 
@@ -81,6 +81,8 @@ Menggunakan pendekatan value-based pricing, yaitu menetapkan harga berdasarkan k
 1. **Diskon Jam Sibuk (Happy Hour)** — Potongan harga 10–15% pada jam kunjungan rendah (misalnya pukul 14.00–16.00) untuk meningkatkan traffic di luar jam ramai.
 2. **Bundling Combo Hemat** — Paket kombinasi kopi + pastry dengan harga lebih murah dibanding membeli terpisah, guna mendorong peningkatan nilai transaksi.
 3. **Promo Member/Pelanggan Setia** — Diskon khusus atau minuman gratis setelah jumlah pembelian tertentu, guna membangun loyalitas pelanggan jangka panjang.
+4. **Mengendors influencer** — Meng-endors influencer untuk mereview dan mempromosikan brand, melalui konten yang menarik di media sosial.
+5. **Membuat konten menarik**  —  membuat konten menarik di media sosial untuk meningkatkan minat dan penjualan, hal ini dilakukan karena mayoritas target pasar merupakan penggerak algoritma media sosial.
 
 
 ## 7. Proses Checkout & Simulasi Payment Gateway
@@ -117,10 +119,18 @@ Alur pemesanan pada website Lattery Coffee dirancang agar sederhana dan cepat:
 ## 9. Rencana Penggunaan Data Analytics
 
 Website Lattery Coffee telah terintegrasi dengan Google Analytics (Google Tag Manager/gtag.js) untuk memantau perilaku pengunjung. Data ini akan digunakan sebagai dasar pengambilan keputusan bisnis melalui metrik-metrik berikut:
-* **Jumlah Pengunjung & Sumber Traffic** — Untuk mengetahui dari mana pelanggan menemukan website (organik, sosial media, langsung) guna mengevaluasi efektivitas strategi promosi.
+* **Jumlah Pengunjung & Sumber Traffic** — Untuk mengetahui dari mana pelanggan menemukan website (organik, sosial media, langsung) guna mengevaluasi efektivitas strategi promosi. berikut ini adalah data sumber traffic pada website Lattery Coffee:
+* <img width="392" height="464" alt="traffic" src="https://github.com/user-attachments/assets/903e3e67-194a-44a1-b451-1dde9aca3df4" />
+
 * **Produk Terpopuler & Kategori Paling Banyak Dilihat** — Untuk menentukan menu andalan yang perlu dipromosikan lebih lanjut atau dikembangkan variannya.
+* <img width="683" height="434" alt="viewers1" src="https://github.com/user-attachments/assets/4fca0581-50e0-47c9-a31f-0f483b43567a" />
+<img width="685" height="442" alt="viewers2" src="https://github.com/user-attachments/assets/dc8f70b9-cb5a-4b08-91cc-f204555e2c52" />
+
+
+
 * **Tingkat Konversi Checkout (Conversion Rate)** — Untuk mengetahui seberapa banyak pengunjung yang benar-benar menyelesaikan pemesanan, sekaligus mendeteksi apabila ada hambatan (drop-off) di proses checkout.
-* **Rata-rata Nilai Transaksi (Average Order Value)** — Untuk mengevaluasi efektivitas strategi bundling/promo dalam meningkatkan nilai belanja pelanggan.
-* **Waktu Kunjungan Tersibuk** — Untuk membantu strategi promo jam sibuk (happy hour) serta perencanaan operasional staf.
+* <img width="379" height="510" alt="conversion-rate" src="https://github.com/user-attachments/assets/5fc684c3-cdb9-4047-b310-d567e677c230" />
+
+
 
 
